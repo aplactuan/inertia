@@ -29,6 +29,14 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/users', function() {
+    return Inertia::render('Users');
+});
+
+Route::get('/settings', function() {
+    return Inertia::render('Settings');
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
