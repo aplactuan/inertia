@@ -7,5 +7,6 @@ import {Link} from "@inertiajs/vue3";
         <li><Link href="/">Home</Link></li>
         <li><Link href="/users">Users</Link></li>
         <li><Link href="/settings">Settings</Link></li>
+        <li><Link href="/logout-test" method="post" as="button">Logout</Link></li>
     </ul>
 </template>

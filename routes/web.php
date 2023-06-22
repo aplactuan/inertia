@@ -37,6 +37,10 @@ Route::get('/settings', function() {
     return Inertia::render('Settings');
 });
 
+Route::post('/logout-test', function () {
+    dd("you are log out");
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
