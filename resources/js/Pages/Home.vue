@@ -1,5 +1,5 @@
 <script setup>
-    import Nav from "./Shared/Nav.vue"
+    import Layout from "./Shared/Layout.vue"
 
     defineProps({
         name: String,
@@ -7,6 +7,7 @@
     })
 </script>
 <template>
-    <h1>Home</h1>
-    <Nav />
+    <Layout>
+        <h1>Home</h1>
+    </Layout>
 </template>
