@@ -9,11 +9,9 @@
 </script>
 
 <template>
-  <Layout>
-      <h1>Users</h1>
-      <div style="margin-top: 1620px">
-          <p class="text-blue-800">The time is {{ time }}</p>
-          <Link href="/users" preserve-scroll>Refresh</Link>
-      </div>
-  </Layout>  
+    <h1>Users</h1>
+    <div style="margin-top: 1620px">
+        <p class="text-blue-800">The time is {{ time }}</p>
+        <Link href="/users" preserve-scroll>Refresh</Link>
+    </div>
 </template>
