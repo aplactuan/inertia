@@ -6,6 +6,8 @@
     const props = defineProps({
         time: String
     })
+
+    defineOptions({ layout: Layout })
 </script>
 
 <template>

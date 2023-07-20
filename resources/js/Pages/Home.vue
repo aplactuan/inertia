@@ -5,6 +5,8 @@
         name: String,
         frameworks: Array
     })
+
+    defineOptions({ layout: Layout })
 </script>
 <template>
     <h1>Home</h1>
