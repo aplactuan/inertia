@@ -1,7 +1,12 @@
 <script setup>
     import Nav from "./Nav.vue"
+    import { Head } from "@inertiajs/vue3";
 </script>
 <template>
+    <Head>
+        <title>My App</title>
+        <meta name="description" content="Global Description" head-key-="description">
+    </Head>
     <header>
         <div class="max-w-7xl mx-auto">
             <div class="flex justify-between">
