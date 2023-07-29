@@ -5,7 +5,7 @@
 <template>
     <Head>
         <title>My App</title>
-        <meta name="description" content="Global Description" head-key-="description">
+        <meta head-key="description" name="description" content="This is the default description" />
     </Head>
     <header>
         <div class="max-w-7xl mx-auto">

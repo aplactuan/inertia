@@ -13,7 +13,8 @@
 <template>
     <Head>
         <title>Users</title>
-        <meta name="description" content="Users Description" head-key-="description">
+        <meta head-key="description" name="description" content="This is the users description" />
+
     </Head>
     <h1>Users</h1>
     <div style="margin-top: 1620px">
