@@ -4,7 +4,7 @@
     import {defineProps} from "vue";
 
     const props = defineProps({
-        time: String
+        users: Array
     })
 
     defineOptions({ layout: Layout })
@@ -17,8 +17,7 @@
 
     </Head>
     <h1>Users</h1>
-    <div style="margin-top: 1620px">
-        <p class="text-blue-800">The time is {{ time }}</p>
-        <Link href="/users" preserve-scroll>Refresh</Link>
-    </div>
+    <ul>
+        <li v-for="user in users" key="user.id">{{ user.name }}</li>
+    </ul>
 </template>
